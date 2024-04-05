@@ -1,0 +1,81 @@
+.exploredishes-container{
+    margin: var(--paddingup);
+}
+.dishtypes{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+.subfood{
+    margin:10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dishtypes .item{
+    display: block;
+    width: 25%;
+ 
+   
+
+}
+.dishtypes img{
+    width: 100%;
+
+}
+.subfoodsection{
+display: flex;
+justify-content: space-between;
+align-items: center;
+  
+
+}
+.subcontent{
+    padding:10px; 
+}
+
+.subfoodsection p{
+    font-size: 14px;
+}
+.subfoodsection .rating{
+
+}
+.subfood .discription{
+    
+        margin: 20px 0;
+        font-size: 13px;
+}
+.subfood .price{
+        margin: 20px 0;
+        
+        color: tomato;
+        font-size: 17px;
+        font-weight: 800;
+}
+
+.dish-image{
+    position:relative
+}
+.add-minus-icon{
+    position: absolute;
+    right: 10px;
+    bottom: 13px;
+}
+
+.add-minus-icon img{
+    cursor: pointer;
+    width: 33px;
+}
+
+.add-pm-funtion {
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px;
+}
+.add-pm-funtion span{
+    color: black;
+    background: #FFF;
+    padding: 2px 10px;
+
+}

@@ -1,0 +1,50 @@
+.hero-container{
+    width: 100%;
+   height:34w;
+   margin: 20px 0;
+}
+
+.hero-child-container{
+    width:100%;
+    min-height:34vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero-content{
+    padding:4vw;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color:#fff;
+
+}
+.hero-content h1{
+   font-size: 3vw;
+   margin-bottom:18px;
+    font-weight: 900;
+    
+}
+.hero-content p{
+    font-size: 1.4vw;
+    margin-bottom: 19px;
+ }
+
+ .viewMorebtn {
+    border: 1px solid #fff;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 8px 5px 14px #00000030;
+    cursor: pointer;
+}
+
+.viewMorebtn:hover {
+    background-color: #c5b2b28a;
+   
+}

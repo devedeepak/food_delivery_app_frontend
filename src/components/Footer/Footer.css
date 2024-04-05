@@ -1,0 +1,29 @@
+.footer-container{
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color:#fff
+}
+
+.footer-container .footer-left{
+    width: 50%;
+}
+.footer-left img{
+   margin:20px 0px
+}
+.footer-middle h4{
+    font-size: 20px;
+    margin:20px 0px
+ }
+ .general-footer{
+    list-style: none;
+ }
+ .general-footer li{
+    margin-bottom:4px;
+ }
+ .footer-right h4{
+    font-size: 20px;
+    margin:20px 0px
+ }

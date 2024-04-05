@@ -1,0 +1,45 @@
+.exploremenu-container{
+    margin: var(--paddingup);
+   
+}
+.menutypes{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+.menutypes::-webkit-scrollbar {
+    display: none;
+  }
+  
+.explore-content{
+    width: 60%;
+}
+.explore-content h1{ 
+    margin: 1.5rem 0;
+}
+.explore-content p{ 
+    margin: 1.5rem 0;
+}
+.menutypes img{
+    width: 100%;
+}
+.menutypes .item{
+    flex:1;
+    padding:20px;
+    text-align: center;
+    cursor: pointer;
+}
+.item p{
+    margin:20px 0;
+}
+.item .active{
+    border: 3px solid red;
+    border-radius: 51%;
+    transform: all 1s ease;
+}
+
+@media screen and (max-width:762px){
+    .header-menu{
+        display: none !important;
+    }
+}
